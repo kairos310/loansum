@@ -1,0 +1,50 @@
+*{
+    font-family: serif;
+    image-rendering: pixelated;
+}
+body{
+    background-image: url("images/RWD_BK2.GIF");
+}
+h1 {
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    display: static;
+    background: none;
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+}
+button>div{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap{
+    margin: auto;
+    align-items: center;
+    padding: auto;
+    display: block;
+}
+.wrap>img{
+    margin: auto;
+    display: block;
+}
+.scrap{
+    position: relative;
+    left: 20%;
+}
+.scrap>img{
+    position: absolute;
+}
+
+#menu
+{
+    align-items: center;
+    text-align: center;
+    margin:auto;
+}
